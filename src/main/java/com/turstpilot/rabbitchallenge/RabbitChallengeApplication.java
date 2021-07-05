@@ -24,9 +24,9 @@ public class RabbitChallengeApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-//        Set<String> phrase1 = md5Service.decodeMD5Hashed("poultry outwits ants", "e4820b45d2277f3844eac66c903e84be");
-//        Set<String> phrase2 = md5Service.decodeMD5Hashed("poultry outwits ants", "23170acc097c24edb98fc5488ab033fe");
-//        Set<String> phrase3 = md5Service.decodeMD5Hashed("poultry outwits ants", "665e5bcb0c20062fe8abaaf4628bb154");
+        Set<String> phrase1 = md5Service.decodeMD5Hashed("poultry outwits ants", "e4820b45d2277f3844eac66c903e84be");
+        Set<String> phrase2 = md5Service.decodeMD5Hashed("poultry outwits ants", "23170acc097c24edb98fc5488ab033fe");
+        Set<String> phrase3 = md5Service.decodeMD5Hashed("poultry outwits ants", "665e5bcb0c20062fe8abaaf4628bb154");
     }
 
 }

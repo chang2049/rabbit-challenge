@@ -54,12 +54,6 @@ Three ways of running it
 1. Please run RabbitChallengeApplication directly in IDE
 
 2. ```bash
-   # Execute the jar file directly
-   java -jar rabbit-challenge-0.0.1-SNAPSHOT.jar 
-   #Please see the jar file in project root
-   ```
-
-3. ```bash
    # Package via maven
    mvn package
    # Execute the jar file
